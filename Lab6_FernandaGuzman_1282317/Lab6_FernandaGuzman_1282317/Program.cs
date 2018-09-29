@@ -19,14 +19,19 @@ namespace Lab6_FernandaGuzman_1282317
                     int a = int.Parse(Console.ReadLine());
                     if (a > 0)
                         entradaValida = true;
-                    else
+                    else {
                         Console.WriteLine("El número debe ser mayor a 0");
+                        Console.Clear();
+                    }
+                                           
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine("El número ingresado no es válido");
+                    Console.Clear();
                 }
             } while (!entradaValida);
+     
             Console.WriteLine("Gracias...");
 
 
@@ -38,12 +43,12 @@ namespace Lab6_FernandaGuzman_1282317
                 Console.WriteLine("a. Sumatoria");
                 Console.WriteLine("b. Factorial");
                 Console.WriteLine("c. Fibonacci");
+                Console.WriteLine("d. SALIR");
 
                 seleccionUsuario = Console.ReadLine();
                 switch (seleccionUsuario)
                 {
                     case "a":
-                        entradaValida = true;
                         Console.WriteLine(" --- SUMATORIA ---");
                         Console.WriteLine("Ingrese un número ");
                         int num1 = int.Parse(Console.ReadLine());
@@ -54,11 +59,10 @@ namespace Lab6_FernandaGuzman_1282317
                             sum += num1;
                             num1--;
                         } while (num1 > 0);
-                        Console.WriteLine("El resultado es " + sum);
+                        Console.WriteLine("Sumatoria del número " + num1 + " es: " + sum);
                         break;
                     case "b":
-                        entradaValida = true;
-                        Console.WriteLine(" --- SUMATORIA ---");
+                        Console.WriteLine(" --- Factorial ---");
                         Console.WriteLine("Ingrese un número ");
                         int num2 = int.Parse(Console.ReadLine());
                         int ans = 1;
@@ -68,44 +72,44 @@ namespace Lab6_FernandaGuzman_1282317
                             ans *= j;
                         }
 
-                        Console.WriteLine("El resultado es " + ans);
+                        Console.WriteLine("Factorial del número " + num2 + " es: " + ans);
                         break;
                     case "c":
-                        entradaValida = true;
-                        Console.WriteLine(" --- SUMATORIA ---");
+                        Console.WriteLine(" --- FIBONACCI ---");
                         Console.WriteLine("Ingrese un número ");
                         int num3 = int.Parse(Console.ReadLine());
 
                         int a = 0;
-                        int b = 0;
+                        int b = 1;
                         int c = 0;
                         int i = 2;
-
-                        string resultados = "";
+                        string serie = "";
                         if (num3 > 0) {
-                            resultados = a.ToString();
+                            serie = serie + " " + a;
                             if (num3 > 1) {
-
-                                resultados = resultados + " " + b;
-                                while (i < num3) {
-                                    c = a + b;
-                                    resultados += resultados + " " + c;
-                                    a = b;
-                                    b = c;
-                                    i = i + 1;
-                                }
-                                Console.Write(resultados);
+                                serie = serie + " " + b;
                             }
-                            resultados = resultados + " " + b;
-             
-                        }
-                        Console.WriteLine(resultados);
+                            while (i < num3) {
+                                c = a + b;
 
+                                i++;
+                                serie = serie + " " + c;
+                                a = b;
+                                b = c;
+                            }
+                        }
+                        
+                        Console.WriteLine("Primeros " + num3 + " números de serie Fibonacci: " + serie);
+                        break;
+                    case "d":
+                        entradaValida = true;
                         break;
                     default:
                         Console.WriteLine("Seleccione una opción válida. ");
                         break;
                 }
+                Console.ReadKey();
+                Console.Clear();
             } while (!entradaValida);
            
             Console.ReadLine();

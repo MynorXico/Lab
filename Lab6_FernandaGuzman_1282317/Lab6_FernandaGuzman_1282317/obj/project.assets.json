@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mynor\\source\\repos\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317.csproj",
+      "projectUniqueName": "C:\\Users\\mynor\\OneDrive\\Documentos\\repos\\Lab\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317.csproj",
       "projectName": "Lab6_FernandaGuzman_1282317",
-      "projectPath": "C:\\Users\\mynor\\source\\repos\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317.csproj",
+      "projectPath": "C:\\Users\\mynor\\OneDrive\\Documentos\\repos\\Lab\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317.csproj",
       "packagesPath": "C:\\Users\\mynor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mynor\\source\\repos\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317\\obj\\",
+      "outputPath": "C:\\Users\\mynor\\OneDrive\\Documentos\\repos\\Lab\\Lab6_FernandaGuzman_1282317\\Lab6_FernandaGuzman_1282317\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
