@@ -1,0 +1,11 @@
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\bin\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.deps.json
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\bin\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.runtimeconfig.json
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\bin\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.runtimeconfig.dev.json
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\bin\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.dll
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\bin\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.pdb
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.csprojAssemblyReference.cache
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.csproj.CoreCompileInputs.cache
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.AssemblyInfoInputs.cache
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.AssemblyInfo.cs
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.dll
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT09_FernandaGuzman_1282317\HT09_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT09_FernandaGuzman_1282317.pdb
