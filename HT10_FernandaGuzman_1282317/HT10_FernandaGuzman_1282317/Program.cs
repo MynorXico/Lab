@@ -76,13 +76,27 @@ namespace HT10_FernandaGuzman_1282317
             /*
              Fragmento de Algoritmo
              */
-            string[] seAsumeArreglo;
+            string[] seAsumeArreglo = { "Alfa Romeo", "Fiat", "Ford", "Mitsubishi", "Seat", "Toyota", " ", " "};
+
+
             void DesplazarElementos(int p, string NuevaMarca) {
-                for (int i = seAsumeArreglo.Length - 2; i >= p; i++) {
+                for (int i = seAsumeArreglo.Length - 2; i >= p; i--) {
                     seAsumeArreglo[i + 1] = seAsumeArreglo[i];
-                    seAsumeArreglo[p] = NuevaMarca;
+                }
+                seAsumeArreglo[p] = NuevaMarca;
+            }
+            
+            void MostrarCarros() {
+                for (int i = 0; i < seAsumeArreglo.Length; i++) {
+                    Console.WriteLine(seAsumeArreglo[i]);
                 }
             }
+            Console.WriteLine("Previo a inserción: ");
+            MostrarCarros();
+            DesplazarElementos(3, "Honda");
+            Console.WriteLine("Después de inserción: ");
+            MostrarCarros();
+            Console.ReadKey();
         }
     }
 }

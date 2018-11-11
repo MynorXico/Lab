@@ -8,3 +8,4 @@ C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT10_FernandaGuzman_1282317\HT10_Fe
 C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT10_FernandaGuzman_1282317\HT10_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT10_FernandaGuzman_1282317.AssemblyInfo.cs
 C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT10_FernandaGuzman_1282317\HT10_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT10_FernandaGuzman_1282317.dll
 C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT10_FernandaGuzman_1282317\HT10_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT10_FernandaGuzman_1282317.pdb
+C:\Users\mynor\OneDrive\Documentos\repos\Lab\HT10_FernandaGuzman_1282317\HT10_FernandaGuzman_1282317\obj\Debug\netcoreapp2.1\HT10_FernandaGuzman_1282317.csprojAssemblyReference.cache
